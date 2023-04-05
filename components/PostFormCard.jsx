@@ -1,17 +1,16 @@
+import Avatar from "./Avatar";
 import Card from "./Card";
 
 export default function PostFormCard(){
     return (
         <Card>
-            <div className="flex gap-5 items-center mt-2">
+            <div className="flex gap-2  ">
                 <div>
-                <div className="w-10 rounded-full overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1599834562135-b6fc90e642ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt=""/>
+                <Avatar/>
                 </div>
-                </div>
-                <textarea className="grow p-3 " placeholder={'Write something'} />
+                <textarea className="grow p-3  " placeholder={'Write something'} />
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 items-center mt-2">
                 <div>
                 <button className="flex gap-1">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
